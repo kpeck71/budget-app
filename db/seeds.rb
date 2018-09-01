@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+goals = Goal.create([{ title: "Buy New Bike" , total: 900, category: "miscellaneous", }, { title: "Add to Savings" , total: 150, category: "savings"  }, { title: "Pay off Credit Card" , total: 970, category: "credit"  }])
+budget = Budget.create([{ income: 6500, expenses: 5000 }])
