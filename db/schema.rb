@@ -14,7 +14,13 @@ ActiveRecord::Schema.define(version: 2018_09_01_154114) do
 
   create_table "budgets", force: :cascade do |t|
     t.float "income"
-    t.float "expenses"
+    t.float "housing_cost", default: 0.0
+    t.float "food", default: 0.0
+    t.float "credit_cards", default: 0.0
+    t.float "personal_loan", default: 0.0
+    t.float "car_loan", default: 0.0
+    t.float "savings", default: 0.0
+    t.float "miscellaneous", default: 0.0
   end
 
   create_table "goals", force: :cascade do |t|
