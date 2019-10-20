@@ -1,5 +1,9 @@
 {
   "name": "budgetapp",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "react-redux": "^5.1.2",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
+  }
 }
